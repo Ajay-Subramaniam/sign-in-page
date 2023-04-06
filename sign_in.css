@@ -1,0 +1,46 @@
+.regform{
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    margin:70px auto;
+    width:250px;
+    padding:10px 40px;
+    font-size: 20px;
+    border-radius:20px;
+}
+body{
+    background:url(/images/ed1_arora_3840\ x\ 2160.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    color:darkgoldenrod;
+}
+.input input{
+    display:block;
+    margin:5px 0px;
+    width:100%;
+    box-sizing: border-box;
+    font-size:15px;
+    padding: 10px 10px;
+    border-radius:20px;
+}
+.btn{
+    text-align: center;
+    margin:10px 0px;
+    size:10px
+}
+button{
+    background-color: darkgoldenrod;
+    padding:5px 10px;
+    border-radius:25px;
+    font-size:25px;
+    color: white;
+}
+input:focus{
+   background-color: rgb(194, 202, 198);   
+}
+.radio input{
+   transform:scale(1.25) ;
+   accent-color: black;
+}
